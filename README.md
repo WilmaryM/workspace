@@ -1,2 +1,3 @@
 # New project
-html, css 
+html, css and js
+
