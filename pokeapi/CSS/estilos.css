@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo-img{
+    display: flex;
+    width: 27.99em;
+    height: 162px;
+    margin-right:auto ;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+}
+.buscar{
+    margin: 100px;
+    padding: 1px;
+    background-color: rgb(0, 0, 0, .8);
+    margin-top: 3.13em;
+    font-size: 0.9em;
+
+}
+
+
+
+.input{ 
+    align-items: center;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 2em;
+    width: 8.5em;
+    height: 1.6em;
+
+}
+
+.w-input{
+    padding: 8px 12px;
+    display: block;
+}
+     
+   
+
+
+.label {
+    width: 17.85em;
+    color: #fff;
+
+}
+
+.seach_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 9.04em;
+    padding-left: 9.04em;
+    align-items: center;
+    padding-top: 12px;
+    margin-bottom: 35px;
+}
