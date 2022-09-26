@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Space Mono', monospace;    color: black;
+}
 
 .logo-img{
     display: flex;
@@ -31,6 +34,7 @@
     font-size: 2em;
     width: 8.5em;
     height: 1.6em;
+    font-family: 'Space Mono', monospace;
 
 }
 
@@ -58,3 +62,4 @@
     padding-top: 12px;
     margin-bottom: 35px;
 }
+
