@@ -7,10 +7,9 @@ body{
 }
 
 .page-wrapper{
-    width: 100%;
-    max-width: 100em;
-    margin-left: 12px;
-    margin-right: 12px;
+    width: 1024px;
+    margin-left: 7%;   
+
 }
 
 .logo-img{
@@ -66,9 +65,6 @@ body{
     margin-bottom: 35px;
 }
 
-.main{
-    padding-top: 2.43em;
-}
 
 .text-block{
     padding-top: 15px;
@@ -85,6 +81,8 @@ body{
     align-items: center;
     
 }
+
+
 .sort_select{
     width: 15em;
     height: 34px;
@@ -93,6 +91,7 @@ body{
     margin-bottom: 9px;
     font-size: 15px;
     background-color: black;
+    float:right;
 }
 
 .filter_type--normal{
@@ -179,32 +178,52 @@ body{
 
 }
 
-.filter_type--dragon{
+.filter_type.-dragon{
 background-color: coral;
-border-radius: 10px;
+
+}
+
+.filter_type{
+    border-radius: 10px;
     text-align: center;
 }
 
+.filter_type--fairy{
+    background-color: rgb(255, 80, 203);
+    border-radius: 10px;
+        text-align: center;
+
+}.filter_type--ice{
+        background-color: rgb(80, 243, 255);
+        border-radius: 10px;
+            text-align: center;
+        }
+        
 .filter_type--rest{
     background-color: black;
     color: #fff;
     border-radius: 10px;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 20px;
+    width: fit-content;
 }
 
 .filter_type-wrraper{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     grid-column-gap: 2em;
     grid-row-gap: 2em;
-    width: 4.65em;
     height: 1.39em;
     padding-left: 10px;
+    cursor: pointer;
 
 }
 
 .pokemons{
+
+    padding-top: 48px;
+    align-items: center;
     display: flex;
     margin-top: 13px;
     flex-wrap: wrap;
